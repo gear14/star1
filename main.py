@@ -7,7 +7,7 @@ import os
 import time
 
 from threading import Thread
-from upm import pyupm_grove as grove
+import pyupm_grove as grove
 
 curtainup = grove.GroveRelay(2)
 curtaindown = grove.GroveRelay(3)
